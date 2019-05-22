@@ -13,6 +13,9 @@ setup(
     license='Apache 2',
     packages=['ldapcreateusers'],
     install_requires=[
-        'https://github.com/bharatlakhiyani/ldapauthenticator',
+        'jupyterhub-ldapauthenticator',
+    ],
+    dependency_links=[
+        'git+https://github.com/bharatlakhiyani/ldapauthenticator.git'
     ]
 )
