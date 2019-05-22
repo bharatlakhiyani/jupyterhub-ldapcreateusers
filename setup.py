@@ -13,6 +13,6 @@ setup(
     license='Apache 2',
     packages=['ldapcreateusers'],
     install_requires=[
-        'jupyterhub-ldapauthenticator',
+        'https://github.com/bharatlakhiyani/ldapauthenticator',
     ]
 )
